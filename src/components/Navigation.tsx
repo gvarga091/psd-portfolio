@@ -32,12 +32,13 @@ export function Navigation({ activeSection }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button
+          <div
             onClick={() => scrollToSection('home')}
-            className="text-white tracking-widest text-xl"
+            className="cursor-pointer"
+            style={{ paddingTop: '16px' }}
           >
-            GERGŐ
-          </button>
+            <img src="/VG-logo.webp" alt="VG - System&Solution Logo" style={{ width: '100px', height: '100px' }} />
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
