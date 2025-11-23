@@ -40,37 +40,37 @@ export function Contact() {
           </button>
 
           {/* Direct Contact Methods */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-gray-400">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 text-gray-400 max-w-4xl mx-auto">
             <a 
               href="mailto:gvarga091@gmail.com"
-              className="flex items-center gap-2 hover:text-blue-400 transition-colors"
+              className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors text-sm md:text-base"
             >
-              <Mail size={20} />
-              <span>gvarga091@gmail.com</span>
+              <Mail size={20} className="flex-shrink-0" />
+              <span className="truncate">gvarga091@gmail.com</span>
             </a>
             <a 
               href="tel:+36705668606"
-              className="flex items-center gap-2 hover:text-blue-400 transition-colors"
+              className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors text-sm md:text-base"
             >
-              <Phone size={20} />
+              <Phone size={20} className="flex-shrink-0" />
               <span>+36 70 566 8606</span>
             </a>
             <a 
               href="https://www.linkedin.com/in/gvarga091"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-blue-400 transition-colors"
+              className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors text-sm md:text-base"
             >
-              <Linkedin size={20} />
+              <Linkedin size={20} className="flex-shrink-0" />
               <span>LinkedIn</span>
             </a>
             <a 
               href="https://www.facebook.com/gvarga091"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-blue-400 transition-colors"
+              className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors text-sm md:text-base"
             >
-              <Facebook size={20} />
+              <Facebook size={20} className="flex-shrink-0" />
               <span>Facebook</span>
             </a>
           </div>
