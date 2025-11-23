@@ -68,14 +68,14 @@ export function Contact() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">{contactText.title}</h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-16">
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
             {contactText.subtitle}
           </p>
           
           {/* Contact Form Toggle Button */}
           <button
             onClick={() => setIsFormOpen(!isFormOpen)}
-            className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white rounded-full transition-all shadow-lg shadow-blue-500/40 transform hover:scale-105 mb-12"
+            className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white rounded-full transition-all shadow-lg shadow-blue-500/40 transform hover:scale-105 mb-16"
           >
             {contactText.toggleButton}
             <ChevronDown 
@@ -91,7 +91,7 @@ export function Contact() {
                 animate={{ height: 'auto', opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}
                 transition={{ duration: 0.3 }}
-                className="overflow-hidden mb-16"
+                className="overflow-hidden mb-12"
               >
                 <form onSubmit={handleSubmit} className="space-y-6 bg-gray-900/50 border border-gray-800 rounded-2xl p-8 text-left max-w-2xl mx-auto">
                   <div>
