@@ -52,6 +52,8 @@ export function Bio() {
               <img
                 src="/profile-photo.webp"
                 alt="Varga Gergő (Gary) - Projektkoordinátor és Full-Stack fejlesztő, Django és Python szakértő Egerből"
+                width="600"
+                height="600"
                 loading="lazy"
                 decoding="async"
                 className="relative w-full h-full object-cover rounded-full border-4 border-gray-800 shadow-2xl"

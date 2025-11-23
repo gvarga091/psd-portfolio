@@ -42,6 +42,8 @@ export function Contrast() {
               <img 
                 src="/placeholder-messy-excel.webp" 
                 alt="Kaotikus Excel táblázat - elveszett információk, nehezen kezelhető adatok" 
+                width="800"
+                height="400"
                 loading="lazy"
                 decoding="async"
                 className="w-full h-full object-cover"
@@ -65,6 +67,8 @@ export function Contrast() {
               <img 
                 src="/placeholder_clean-product-list.webp" 
                 alt="Tiszta digitális terméknyilvántartás - strukturált adatok, egyértelmű folyamatok" 
+                width="800"
+                height="400"
                 loading="lazy"
                 decoding="async"
                 className="w-full h-full object-cover"
