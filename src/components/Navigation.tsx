@@ -59,7 +59,10 @@ export function Navigation({ activeSection }: NavigationProps) {
             {/* Language Toggle */}
             <LanguageToggle />
             
-            <button className="w-10 h-10 rounded-full border-2 border-blue-500 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all">
+            <button 
+              className="w-10 h-10 rounded-full border-2 border-blue-500 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all"
+              aria-label="Felhasználói profil"
+            >
               <User size={20} />
             </button>
           </div>
@@ -68,6 +71,8 @@ export function Navigation({ activeSection }: NavigationProps) {
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden text-gray-400"
+            aria-label={mobileMenuOpen ? 'Menü bezárása' : 'Menü megnyitása'}
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
