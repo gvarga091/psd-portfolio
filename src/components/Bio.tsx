@@ -51,7 +51,9 @@ export function Bio() {
               <div className="absolute -inset-3 bg-gradient-to-br from-blue-600 to-orange-500 rounded-full blur-xl opacity-40" />
               <img
                 src="/profile-photo.webp"
-                alt="Gergő Varga"
+                alt="Varga Gergő (Gary) - Projektkoordinátor és Full-Stack fejlesztő, Django és Python szakértő Egerből"
+                loading="lazy"
+                decoding="async"
                 className="relative w-full h-full object-cover rounded-full border-4 border-gray-800 shadow-2xl"
               />
             </div>

@@ -12,6 +12,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://gvarga091.com/en/" />
   </url>
   
+  <!-- Homepage (English) -->
+  <url>
+    <loc>https://gvarga091.com/en/</loc>
+    <lastmod>2025-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://gvarga091.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gvarga091.com/en/" />
+  </url>
+  
   <!-- Sections (Hungarian) -->
   <url>
     <loc>https://gvarga091.com/#contrast</loc>

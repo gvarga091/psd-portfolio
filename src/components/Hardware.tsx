@@ -25,7 +25,9 @@ export function Hardware() {
           >
             <img 
               src="/hardware-3d-model.webp" 
-              alt="3D CAD Model" 
+              alt="3D CAD tervezett egyedi IoT szenzor ház és hardver integráció - 3D nyomtatott alkatrészek" 
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-contain"
             />
           </motion.div>

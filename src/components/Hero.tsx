@@ -16,7 +16,9 @@ export function Hero() {
       {/* Background Image */}
       <img 
         src="/placeholder-dashboard.webp"
-        alt="Background" 
+        alt="Egyedi vállalatirányítási rendszer dashboard előnézet - valós idejű adatmonitorozás és folyamatkövetés"
+        loading="eager"
+        fetchPriority="high"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
       {/* Dark Gradient Overlay */}

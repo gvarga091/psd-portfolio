@@ -41,7 +41,9 @@ export function Contrast() {
             <div className="w-full h-48 bg-gray-800 rounded-md overflow-hidden filter blur-sm opacity-70">
               <img 
                 src="/placeholder-messy-excel.webp" 
-                alt="Messy Excel" 
+                alt="Kaotikus Excel táblázat - elveszett információk, nehezen kezelhető adatok" 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -62,7 +64,9 @@ export function Contrast() {
             <div className="w-full h-48 bg-gray-800 rounded-md overflow-hidden">
               <img 
                 src="/placeholder_clean-product-list.webp" 
-                alt="Clean Product List" 
+                alt="Tiszta digitális terméknyilvántartás - strukturált adatok, egyértelmű folyamatok" 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>
