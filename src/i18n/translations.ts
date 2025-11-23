@@ -242,7 +242,7 @@ export const translations: Record<Language, Translations> = {
         placeholder: {
           name: 'Your name',
           email: 'your.email@example.com',
-          message: 'Tell me about your project...',
+          message: 'How can I help you?',
         },
       },
       connect: 'CONNECT',
@@ -389,7 +389,7 @@ export const translations: Record<Language, Translations> = {
         placeholder: {
           name: 'A te neved',
           email: 'te.email@pelda.hu',
-          message: 'Mesélj a projektedről...',
+          message: 'Miben tudnék segíteni?',
         },
       },
       connect: 'KAPCSOLAT',
