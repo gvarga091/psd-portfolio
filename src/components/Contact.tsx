@@ -68,7 +68,7 @@ export function Contact() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">{contactText.title}</h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-16">
             {contactText.subtitle}
           </p>
           

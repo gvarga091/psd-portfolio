@@ -429,7 +429,7 @@ export const translations: Record<Language, Translations> = {
     services: {
       title: 'Filozófia',
       card1: {
-        title: 'Hülyebiztos Design (Foolproof UI)',
+        title: 'Zéró betanítás',
         text: 'Ha egy gombot magyarázni kell, akkor rossz a design. Olyan felületeket tervezek, ahol a következő lépés mindig egyértelmű. A felhasználó nem tud hibázni.',
       },
       card2: {
