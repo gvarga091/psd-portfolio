@@ -13,7 +13,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   // LocalStorage-ból olvasás (ha van mentve)
   const [language, setLanguageState] = useState<Language>(() => {
     const saved = localStorage.getItem('language');
-    return (saved as Language) || 'en';
+    return (saved as Language) || 'hu';
   });
 
   // Language váltás és mentés
