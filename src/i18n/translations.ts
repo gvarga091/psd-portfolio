@@ -84,6 +84,7 @@ export interface Translations {
   contact: {
     title: string;
     subtitle: string;
+    toggleButton: string;
     form: {
       name: string;
       email: string;
@@ -233,11 +234,12 @@ export const translations: Record<Language, Translations> = {
     contact: {
       title: 'Ready to simplify?',
       subtitle: "In a 20-minute conversation, we'll find out if your company's processes are ready for automation. No sales talk, just practical advice.",
+      toggleButton: "Let's talk!",
       form: {
         name: 'NAME',
         email: 'EMAIL',
         message: 'MESSAGE',
-        send: 'Book a meeting',
+        send: 'Send',
         sending: 'Sending...',
         placeholder: {
           name: 'Your name',
@@ -380,11 +382,12 @@ export const translations: Record<Language, Translations> = {
     contact: {
       title: 'Készen állsz egyszerűsíteni?',
       subtitle: 'Egy 20 perces beszélgetés alatt kiderítjük, hogy a céged folyamatai megérettek-e az automatizálásra. Nincs sales duma, csak gyakorlati tanácsok.',
+      toggleButton: 'Beszéljünk!',
       form: {
         name: 'NÉV',
         email: 'EMAIL',
         message: 'ÜZENET',
-        send: 'Időpontot foglalok',
+        send: 'Küldés',
         sending: 'Küldés...',
         placeholder: {
           name: 'A te neved',
