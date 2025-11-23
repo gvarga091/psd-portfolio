@@ -37,7 +37,7 @@ export function Navigation({ activeSection }: NavigationProps) {
             className="cursor-pointer"
             style={{ paddingTop: '16px' }}
           >
-            <img src="/VG-logo.webp" alt="VG - System&Solution Logo" style={{ width: '100px', height: '100px' }} />
+            <img src="/VG-logo.webp" alt="VG - System&Solution Logo" style={{ width: 'auto', height: '100px' }} />
           </div>
 
           {/* Desktop Navigation */}
