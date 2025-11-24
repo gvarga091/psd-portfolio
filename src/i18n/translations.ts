@@ -265,7 +265,7 @@ export const translations: Record<Language, Translations> = {
       error: 'Something went wrong. Please try again.',
     },
     footer: {
-      copyright: 'Tech Professional & System Builder.',
+      copyright: '© 2025 Varga Gergő E.V. | Tech Professional & System Builder.',
     },
     contrast: {
       title: 'Chaos and Order',
@@ -413,7 +413,7 @@ export const translations: Record<Language, Translations> = {
       error: 'Valami hiba történt. Kérlek próbáld újra.',
     },
     footer: {
-      copyright: 'Tech szakember és rendszerépítő.',
+      copyright: '© 2025 Varga Gergő E.V. | Tech szakember és rendszerépítő.',
     },
     contrast: {
       title: 'A Káosz és a Rend',

@@ -3,6 +3,7 @@ import { ArrowRight, Mail, Linkedin, Phone, Facebook, Send, ChevronDown } from '
 import { useState } from 'react';
 import { toast } from 'sonner';
 import { useLanguage } from '../i18n/LanguageContext';
+import FAQ from './FAQ';
 
 export function Contact() {
   const { t } = useLanguage();
@@ -188,6 +189,11 @@ export function Contact() {
               <Facebook size={20} className="flex-shrink-0" />
               <span>Facebook</span>
             </a>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="max-w-2xl mx-auto mt-16">
+            <FAQ />
           </div>
         </motion.div>
       </div>

@@ -49,7 +49,7 @@ function AppContent() {
       {/* Footer */}
       <footer className="bg-black border-t border-gray-800 text-gray-300 py-8">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p>© {new Date().getFullYear()} Gergő. {t.footer.copyright}</p>
+          <p>{t.footer.copyright}</p>
         </div>
       </footer>
     </div>
