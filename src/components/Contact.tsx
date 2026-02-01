@@ -158,11 +158,11 @@ export function Contact() {
           {/* Direct Contact Methods */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 text-gray-400 max-w-4xl mx-auto">
             <a 
-              href="mailto:gergo@kordix.hu"
+              href="mailto:gvarga091@gmail.com"
               className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors text-sm md:text-base"
             >
               <Mail size={20} className="flex-shrink-0" />
-              <span className="truncate">gergo@kordix.hu</span>
+              <span className="truncate">gvarga091@gmail.com</span>
             </a>
             <a 
               href="tel:+36705668606"
@@ -181,7 +181,7 @@ export function Contact() {
               <span>LinkedIn</span>
             </a>
             <a 
-              href="https://www.facebook.com/kordix.hu"
+              href="https://www.facebook.com/gvarga091"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors text-sm md:text-base"
