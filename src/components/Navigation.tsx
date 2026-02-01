@@ -28,7 +28,7 @@ export function Navigation({ activeSection }: NavigationProps) {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-black/90 backdrop-blur-sm z-50">
+    <nav className="fixed top-0 left-0 right-0 bg-[#303437] backdrop-blur-sm z-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -38,8 +38,8 @@ export function Navigation({ activeSection }: NavigationProps) {
             style={{ paddingTop: '16px' }}
           >
             <img 
-              src="/VG-logo.webp" 
-              alt="VG - System&Solution Logo" 
+              src="/kordix-logo.webp" 
+              alt="KordiX Logo" 
               width="200" 
               height="100"
               style={{ width: 'auto', height: '100px' }} 

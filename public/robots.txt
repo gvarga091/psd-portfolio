@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://gvarga091.com/sitemap.xml
+Sitemap: https://kordix.hu/sitemap.xml
 
 # Crawl-delay (optional, prevent aggressive crawling)
 Crawl-delay: 1

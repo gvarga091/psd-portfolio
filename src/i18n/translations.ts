@@ -265,7 +265,7 @@ export const translations: Record<Language, Translations> = {
       error: 'Something went wrong. Please try again.',
     },
     footer: {
-      copyright: '© 2025 Varga Gergő E.V. | Tech Professional & System Builder.',
+      copyright: '© 2026 KordiX (Varga Gergő E.V.) | Your Vision. Coordinated.',
     },
     contrast: {
       title: 'Chaos and Order',
@@ -296,7 +296,7 @@ export const translations: Record<Language, Translations> = {
     bio: {
       title: 'The bridge between reality and digital order',
       text1: "I'm not a 'coder in a dark room'. As a project coordinator, I spent years working with physical systems (security technology, access control). I know exactly the difference between theory and practice.",
-      text2: "I've seen expensive software fail because colleagues hated using it. My goal has since been simple: to give you tools that don't complicate, but simplify your life. I build the bridge between physical reality and digital order.",
+      text2: "I've seen expensive software fail because colleagues hated using it. My goal has since been simple: to give you tools that don't complicate, but simplify your life. I build the bridge between physical reality and a digital order.",
     },
     hardware: {
       title: 'Where Software Meets Hardware',
@@ -413,7 +413,7 @@ export const translations: Record<Language, Translations> = {
       error: 'Valami hiba történt. Kérlek próbáld újra.',
     },
     footer: {
-      copyright: '© 2025 Varga Gergő E.V. | Tech szakember és rendszerépítő.',
+      copyright: '© 2026 KordiX (Varga Gergő E.V.) | Koordinálom a digitális világodat.',
     },
     contrast: {
       title: 'A Káosz és a Rend',
